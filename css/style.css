@@ -943,6 +943,11 @@ header ul li:last-child {
 .form-action .link a:hover {
   text-decoration: underline;
 }
+input[type="number"] {
+  -webkit-appearance: textfield;
+  -moz-appearance: textfield;
+  appearance: textfield;
+}
 label {
   display: block;
   margin-bottom: 1.9rem;
@@ -959,6 +964,9 @@ label select {
   padding: 0 1rem 0 2.6rem;
   font-family: 'Montserrat', sans-serif;
   font-weight: 400;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
 }
 label select {
   -webkit-appearance: none;
